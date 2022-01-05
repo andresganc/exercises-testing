@@ -8,9 +8,12 @@ describe('Test for sum', () => {
         expect(sum(1, 2)).toBe(3)
     })
 
+    /*
+    // Alias of test
     it('Should return 3 with 1 + 2', () => {
         expect(sum(1, 2)).toBe(3)
     })
+    */
 
     test('1 + (-2) to equal -1', () => {
         expect(sum(1, -2)).toBe(-1)
