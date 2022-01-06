@@ -1,5 +1,5 @@
 
-const sum = require('../src/matchers');
+const sum = require('../src/index');
 //import sum from '../src/index.js'
 
 describe('Matchers', () => {
@@ -14,6 +14,7 @@ describe('Matchers', () => {
         const data2 = { username: 'Andres' }
         
         expect(data1).toEqual({ username: 'Andres Giraldo'})
+        expect(data1).not.toEqual(data2)
     })
     
 
