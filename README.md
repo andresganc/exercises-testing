@@ -1,4 +1,4 @@
 
-# CURSO JEST TESTING
+# CURSO TESTING
 
-Curso NC de JEST - Testing en JavaScript &amp; Typescript
+    - Curso TESTTING
